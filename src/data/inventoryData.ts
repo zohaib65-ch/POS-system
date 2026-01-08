@@ -1,0 +1,40 @@
+import { InventoryItem } from "@/types/inventory";
+
+export const inventoryData: InventoryItem[] = [
+  {
+    id: "1",
+    name: "32 inch LED Panel",
+    category: "panels",
+    brand: "Samsung",
+    model: "LTM320AP01",
+    quantity: 15,
+    price: 8500,
+    threshold: 5,
+    supplier: "Tech Imports Ltd",
+    description: "High quality LED panel for TV repairs",
+  },
+  {
+    id: "2",
+    name: "Power Supply Board",
+    category: "boards",
+    brand: "Sony",
+    model: "PSB-2024",
+    quantity: 3,
+    price: 2500,
+    threshold: 10,
+    supplier: "Electronics Plus",
+    description: "Universal power supply board",
+  },
+  {
+    id: "3",
+    name: "Universal Remote",
+    category: "remotes",
+    brand: "Chunghop",
+    model: "URC-101",
+    quantity: 50,
+    price: 350,
+    threshold: 20,
+    supplier: "Remote Controls Co",
+    description: "Compatible with most TV brands",
+  },
+];
